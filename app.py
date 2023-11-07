@@ -5,7 +5,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'Ayush-Jef'
+app.config['SECRET_KEY'] = 'Pushkal-Burde'
 
 class SearchForm(FlaskForm):
     search = StringField("Enter your search terms:")
